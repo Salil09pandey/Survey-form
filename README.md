@@ -1,7 +1,7 @@
 # Survey From
 Covid-19 survey form 
 
-#### Link : [https://hafeez25.github.io/covid-19/](https://hafeez25.github.io/covid-19/)
+#### Link : [https://dreamy-fox-3c23cc.netlify.app/](https://dreamy-fox-3c23cc.netlify.app/)
 
 
 
