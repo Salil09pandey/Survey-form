@@ -1,0 +1,208 @@
+body{
+    background-image: url(website.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    align-items: center;
+    margin: auto;
+
+    max-width: 60.5rem;
+    line-height: 1.4rem;
+    background-image: url(survey.jpg);
+    background-repeat: no-repeat;
+    background-position:  center right;
+}
+
+#title{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 34px;
+    font-family: serif;
+    margin-bottom: 0.4rem;
+    margin-top: 0.5rem;
+}
+#header{
+    text-align: center;
+    background-color: rgb(85, 32, 83);
+    padding: 0.8rem 1.8rem;
+}
+
+#description{
+    text-align: center;
+    color: aliceblue;
+    font-size: 19px;
+    font-family: inherit;
+    margin-bottom: 0.4rem;
+}
+
+#survey-form{
+    text-align: center;
+    background-color:rgba(85, 32, 83, 0.734);
+    display: block;
+    margin-top: 0em;
+    padding: 2.5rem 0.625rem;
+}
+
+#name-label{
+    font-size: large;
+    color: aliceblue;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+#name{
+    display: block;
+    width: 50%;
+    height: 1.275rem;
+    padding: 0.4rem 0.5rem;
+    color: #1e4063;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#email-label{
+    font-size: large;
+    color: aliceblue;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+#email{
+    display: block;
+    width: 50%;
+    height: 1.275rem;
+    padding: 0.27rem 0.375rem;
+    color: #1e4063;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#number-label{
+    font-size: large;
+    color: aliceblue;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+#number{
+    display: block;
+    width: 50%;
+    height: 1.275rem;
+    padding: 0.27rem 0.375rem;
+    color: #1e4063;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#choose{
+    font-size: large;
+    color: whitesmoke;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+#dropdown{
+    display: block;
+    width: 50%;
+    height: 2.0rem;
+    padding: 0.27rem 0.375rem;
+    color: #1e4063;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+#share{
+    font-size: large;
+    color: aliceblue;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+#radi{
+    text-align: start;
+    color: whitesmoke;
+    font-size: large;
+}
+
+#sport{
+    font-size: large;
+    color: aliceblue;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+#feedback{
+    font-size: large;
+    color: aliceblue;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+#sports{
+    text-align: start;
+    color: whitesmoke;
+    font-size: large;
+}
+
+#area{
+    display: block;
+    width: 60%;
+    height: 4.0rem;
+    padding: 0.27rem 0.375rem;
+    color: #1e4063;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+#submit{
+    display: block;
+    width: 50%;
+    padding: 0.75rem;
+    background: rgba(58, 175, 58, 0.789);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}

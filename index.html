@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        <title>Survey Form</title>  
+    </head>
+    <body id="body">
+        <section id="container">
+            <header id="header">
+                <h1 id="title">Online Survey Form</h1>
+                <p id="description">Thank You! for giving your valuable time <br>& helps us to give your feedback.</p>
+            </header>
+        <form id="survey-form">
+            <label id="name-label">Name:</label>
+            <input type="name" id="name" placeholder="Enter Name" required><br><br>
+            <label id="email-label">Email:</label>
+            <input type="email" id="email" placeholder="Enter Valid Email" required><br><br>
+            <label id="number-label" >Age(optional):</label>
+            <input type="number" id="number" placeholder="Enter an Age" min="18" max="65" required><br><br>
+            <label id="choose">Choose An Option:</label>
+            <select id="dropdown">
+                <option disabled selected value>Selet an option</option>
+                <option value="Student">Student</option>
+                <option value="Professional">Professional</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Not to say">Prefer not to Say</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <label id="share"> Woule you recommend this to a friend?</label>
+            <div id="radi">
+            <input type="radio" name="definitly" checked>Definitly<br>
+            <input type="radio" name="maybe">Maybe<br>
+            <input type="radio" name="not sure">Not Sure
+            </div><br><br>
+            <label id="sport">Which Sport would you able to play?</label>
+            <div id="sports">
+            <input type="checkbox" id="cricket" value="Cricket">
+            <label> Cricket</label><br>
+            <input type="checkbox" id="football" value="Footaball">
+            <label> Football</label><br>
+            <input type="checkbox" id="tennis" value="Tennis">
+            <label> Table Tennis</label><br>
+            <input type="checkbox" id="badminton" value="Badminton">
+            <label>Badminton</label><br>
+            <input type="checkbox" id="chess" value="Chess">
+            <label> Chess</label>
+            </div><br>
+            <label id="feedback">Any comments or suggestions:</label>
+            <textarea id="area" placeholder="Enter your comments here">
+            </textarea><br><br>
+            <input type="submit" id="submit" value="Submit" class="submit-btn">
+        </form>
+        </section> 
+    </body>
+</html>
