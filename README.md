@@ -1,5 +1,5 @@
 # Survey From
-Covid-19 survey form 
+Survey form 
 
 #### Link : [https://dreamy-fox-3c23cc.netlify.app/](https://dreamy-fox-3c23cc.netlify.app/)
 
